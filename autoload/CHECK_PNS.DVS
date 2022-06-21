@@ -1,0 +1,35 @@
+<DVS VERSION='1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:noNamespaceSchemaLocation='DVS-001.xsd'>
+<!-- This sequence CHECKS DID F111 F113 DE14.If so, no action needed -->
+<SEQUENCE>
+	<NAME>CHECKING DID F111 F113 DE14</NAME>
+		<PRE_SWDL>
+		<!-- All Pre SWDL DIDs are read to get a match. If ALL match, action is performed -->
+			<DID_DATA>
+				<ID>0xF111</ID>
+				<DATA_LENGTH>24</DATA_LENGTH>
+				<!-- LU5T-14F536-BAD -->
+				<DATA>4C5535542D3134463533362D424144000000000000000000</DATA>
+				<ECU_ID>0x716</ECU_ID>
+			</DID_DATA>
+			<DID_DATA>
+				<ID>0xF113</ID>
+				<DATA_LENGTH>24</DATA_LENGTH>
+				<!-- LJ6T-14F642-BK -->
+				<DATA>4C4A36542D3134463634322D424B00000000000000000000</DATA>
+				<ECU_ID>0x716</ECU_ID>
+			</DID_DATA>
+			<DID_DATA>
+				<ID>0xDE14</ID>
+				<DATA_LENGTH>1</DATA_LENGTH>
+				<!-- EF -->
+				<DATA>EF</DATA>
+				<ECU_ID>0x716</ECU_ID>
+			</DID_DATA>
+		</PRE_SWDL>
+		
+		<ACTION>NONE</ACTION>
+		<FINAL_TEXT_SUCCESS> F111 / F113 / DE14 ARE CORRECT. </FINAL_TEXT_SUCCESS>
+		<POPUP_SUCCESS> true </POPUP_SUCCESS>
+		<POPUP_FAIL> true </POPUP_FAIL>
+</SEQUENCE>
+</DVS>

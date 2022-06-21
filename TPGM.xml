@@ -1,0 +1,158 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TPGM
+</name>
+</assembly>
+<members>
+<member name="T:TPGM.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.barcode">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.cancel1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.circle_emp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.close__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.flags">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.good">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.minimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.ng">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.ongoing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.stop_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.sydney_opera_house">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.test">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.test1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.version_control">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TPGM.My.Resources.Resources.video_play_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:TPGM.mod11_ErrorMessage_v0_4.MsgPrintLogIfEn(System.String,System.Int64,System.String,System.Int64)">
+ <summary>
+ Function Description
+ </summary>
+ <param name="rMessage">Messaggio da stampare[String]</param>
+ <param name="rAvoidCrLf">A Capo [0=SI/1=NO]</param>
+ <param name="rPrintCondition">Condizione di stampa [SI/NO]</param>
+ <param name="rEnableVarValue">Parametro che abilita/disabilita la stampa condizionata["ALWAYS"/"IF ENABLED"]</param>
+ <returns></returns>
+ no returns
+ <remarks></remarks>
+</member>
+<member name="M:TPGM.mod99_RunPackUtility_v0_1.fRpkSerialNumberIsEnable(System.String@)">
+ <summary>
+ Riceve da RunPack lo stato di abilitazione del SN
+ </summary>
+ <param name="rSerialNumberIsEnable">[String]Stato di abilitazione del SerialNumber[SI/NO]</param>
+ <returns></returns>
+ Ritorna una variabile che contiene lo stato di abilitazione del SerialNumber
+ <remarks></remarks>
+</member>
+<member name="M:TPGM.mod99_RunPackUtility_v0_1.fRpkGetBayNumber(System.Int32@)">
+ <summary>
+ Riceve da RunPack il numero di Bay del TPGM
+ </summary>
+ <param name="rBayNumber">[Integer]Numero di bay presenti nel TPGM</param>
+ <returns></returns>
+ Ritorna una variabile che contiene il numero di Bay settati nel TPGM
+ <remarks></remarks>
+</member>
+<member name="M:TPGM.mod99_RunPackUtility_v0_1.fRpkSerialNumberRead(System.Int32)">
+ <summary>
+ Riceve da RunPack il SerialNumebr del site richiesto
+ </summary>
+ <param name="pUseSite">[Integer]Site del quale si desidera leggere il SerialNumber</param>
+ <returns></returns>
+ Ritorna una stringa contenente il SerialNumber
+ <remarks></remarks>
+</member>
+<member name="M:TPGM.mod99_RunPackUtility_v0_1.fRpkGetNumberOfBoard(System.Int32@)">
+ <summary>
+ Riceve da RunPack il numero di schede presenti nel pannello
+ </summary>
+ <returns></returns>
+ Ritorna una valore long che indica se la funzione é stata eseguita correttamente
+ <remarks></remarks>
+</member>
+</members>
+</doc>
